@@ -15,7 +15,7 @@ I’m solving problems **in order (progressively)**, not separating them into di
 - Every solution includes:  
   - Problem statement (short description)  
   - My thought process / explanation (where needed)  
-  - Clean & optimized JavaScript solution  
+  - Clean & optimized JavaScript & C++ solution  
 
 ---
 
@@ -44,7 +44,7 @@ Check my commit history to see the full problem-solving journey!
 
 ## 🛠️ Tech Used  
 
-- **Language**: JavaScript (ES6+)  
+- **Language**: JavaScript (ES6+) & C++  
 - **Platform**: [LeetCode](https://leetcode.com/)  
 - **Editor**: VS Code  
 
