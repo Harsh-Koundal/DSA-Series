@@ -5,11 +5,14 @@
 using namespace std;
 
 int singleNonDuplicate(vector<int>& nums){
-    int x=0;
-    for(int num : nums){
-        x ^=num;
+    int st=0,end=nums.size()-1;
+    while(st<end){
+        int mid = st+(end-st)/2;
+        if(mid%2==1) mid--;
+        if(nums[mid]==nums[mid+1]) st=mid+2;
+        else end=mid;
     }
-    return x;
+    return nums[st];
 }
 
 int main(){
