@@ -4,14 +4,8 @@
 using namespace std;
 
 int main(){
-    int a[10],f,c;
+    int a[10]={10,20,30,40,50},f=4,c;
     float sum,mean;
-    cout<<"enter array size:";
-    cin>>f;
-    cout << "enter array elements:";
-    for(c=0;c<=f;c++){
-        cin >> a[c];
-    }
     for(c=0;c<=f;c++){
         sum=sum+a[c];
         mean = sum/f;
